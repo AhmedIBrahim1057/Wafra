@@ -3,7 +3,7 @@
 <head>
     <!-- Basic -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -11,8 +11,8 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{asset('frontendFiles/img/logos/logo.ico')}}" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="{{asset('frontendFiles/img/logos/logo.ico')}}">
+    <link rel="shortcut icon" href="{{asset('frontendFiles/img/logos/wafra-logo.ico')}}" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="{{asset('frontendFiles/img/logos/wafra-logo.ico')}}">
 
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
