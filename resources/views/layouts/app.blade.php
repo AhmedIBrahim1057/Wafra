@@ -58,6 +58,16 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
     
     @yield('head')
+
+    <style>
+        @media (max-width: 991px){
+            #header .header-nav-main nav > ul li a.dropdown-toggle .fa-chevron-down {
+                
+                display: none;
+                
+            }
+        }
+    </style>
 </head>
 <body>
     <div id="app">
@@ -87,7 +97,7 @@
                                                         </a>
                                                     </li>
                                                     <li class="dropdown-menu-secondary dropdown">
-                                                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                                        <a class="nav-link dropdown-toggle" href="#">
                                                             About
                                                             <i class="fas fa-caret-down ml-2"></i>
                                                         </a>
@@ -108,7 +118,7 @@
                                                         </li>
                                                     @else
                                                         <li class="dropdown-menu-secondary dropdown">
-                                                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#">
                                                                 {{ Auth::user()->name }} 
                                                                 <i class="fas fa-caret-down ml-2"></i>
                                                             </a>
