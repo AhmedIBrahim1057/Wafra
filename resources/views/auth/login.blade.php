@@ -4,8 +4,8 @@
 <div class="container pt-5 pb-4">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+            <div class="card appear-animation box-shadow-1" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
+                <div class="card-header text-color-secondary font-weight-bolder">{{ __('Login') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">

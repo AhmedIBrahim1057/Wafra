@@ -109,7 +109,7 @@
 </section>
 
 <!----------------------- EVENTS ----------------------->
-
+{{-- 
 <section class="real-word-stories bg-color-quaternary overflow-hidden p-relative pb-4">
     <div class="container py-xl-5">
         <div class="row justify-content-between align-items-center pt-5 py-xl-5 mt-3">
@@ -180,7 +180,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 
 <!----------------------- PARTNERS ----------------------->

@@ -69,7 +69,7 @@
                             <div class="header-column header-column-logo">
                                 <div class="header-row">
                                     <div class="header-logo">
-                                        <a href="demo-business-consulting-2.html">
+                                        <a href="/">
                                             <img alt="WAFRA" width="100" height="auto" src="{{asset('frontendFiles/img/logos/wafra-logo.png')}}">
                                         </a>
                                     </div>
