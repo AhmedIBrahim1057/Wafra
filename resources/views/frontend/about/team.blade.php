@@ -33,7 +33,7 @@
                         </tr>
                         <tr>
                             <td style="width: 20%;">
-                                <img src="/frontendFiles/img/team/ihab.png" class="img-responsive" style="width: 100%;">
+                                <img src="{{asset('/frontendFiles/img/team/ihab.png')}}" class="img-responsive" style="width: 100%;">
                             </td>
                             <td>
                                 <h3 style="font-weight: bold; margin-bottom: 10px; font-size: 1.6em;"> Ihab Adly  </h3>
@@ -57,7 +57,7 @@
                         </tr>
                         <tr>
                             <td style="width: 20%;">
-                                <img src="/frontendFiles/img/team/hani.png" class="img-responsive" style="width: 100%;">
+                                <img src="{{asset('/frontendFiles/img/team/hani.png')}}" class="img-responsive" style="width: 100%;">
                             </td>
                             <td>
                                 <h3 style="font-weight: bold; margin-bottom: 10px; font-size: 1.6em;"> Hani F. RAGAI  </h3>
@@ -70,7 +70,7 @@
                         </tr>
                         <tr>
                             <td style="width: 20%;">
-                                <img src="/frontendFiles/img/team/hossam.png" class="img-responsive" style="width: 100%;">
+                                <img src="{{asset('/frontendFiles/img/team/hossam.png')}}" class="img-responsive" style="width: 100%;">
                             </td>
                             <td>
                                 <h3 style="font-weight: bold; margin-bottom: 10px; font-size: 1.6em;"> Hossam Sayour  </h3>
@@ -99,7 +99,7 @@
                         </tr>
                         <tr>
                             <td style="width: 20%;">
-                                <img src="/frontendFiles/img/team/kirah.png" class="img-responsive" style="width: 100%;">
+                                <img src="{{asset('/frontendFiles/img/team/kirah.png')}}" class="img-responsive" style="width: 100%;">
                             </td>
                             <td>
                                 <h3 style="font-weight: bold; margin-bottom: 10px; font-size: 1.6em;"> Khaled Kirah  </h3>
@@ -122,7 +122,7 @@
                         </tr>
                         <tr>
                             <td style="width: 20%;">
-                                <img src="/frontendFiles/img/team/ola.png" class="img-responsive" style="width: 100%;">
+                                <img src="{{asset('/frontendFiles/img/team/ola.png')}}" class="img-responsive" style="width: 100%;">
                             </td>
                             <td>
                                 <h3 style="font-weight: bold; margin-bottom: 10px; font-size: 1.6em;"> Ola M. Gomaa </h3>
@@ -149,7 +149,7 @@
                         </tr>
                         <tr>
                             <td style="width: 20%;">
-                                <img src="/frontendFiles/img/team/falk.png" class="img-responsive" style="width: 100%;">
+                                <img src="{{asset('/frontendFiles/img/team/falk.png')}}" class="img-responsive" style="width: 100%;">
                             </td>
                             <td>
                                 <h3 style="font-weight: bold; margin-bottom: 10px; font-size: 1.6em;"> Prof. Dr. Falk Harnisch </h3>
@@ -164,7 +164,7 @@
                         </tr>
                         <tr>
                             <td style="width: 20%;">
-                                <img src="/frontendFiles/img/team/korth.png" class="img-responsive" style="width: 100%;">
+                                <img src="{{asset('/frontendFiles/img/team/korth.png')}}" class="img-responsive" style="width: 100%;">
                             </td>
                             <td>
                                 <h3 style="font-weight: bold; margin-bottom: 10px; font-size: 1.6em;"> Dr. Benjamin Korth </h3>
@@ -189,7 +189,7 @@
                         </tr>
                         <tr>
                             <td style="width: 20%;">
-                                <img src="/frontendFiles/img/team/naddeo.png" class="img-responsive" style="width: 100%;">
+                                <img src="{{asset('/frontendFiles/img/team/naddeo.png')}}" class="img-responsive" style="width: 100%;">
                             </td>
                             <td>
                                 <h3 style="font-weight: bold; margin-bottom: 10px; font-size: 1.6em;"> Vincenzo Naddeo, PhD </h3>
@@ -213,7 +213,7 @@
                         </tr>
                         <tr>
                             <td style="width: 20%;">
-                                <img src="/frontendFiles/img/team/puig.png" class="img-responsive" style="width: 100%;">
+                                <img src="{{asset('/frontendFiles/img/team/puig.png')}}" class="img-responsive" style="width: 100%;">
                             </td>
                             <td>
                                 <h3 style="font-weight: bold; margin-bottom: 10px; font-size: 1.6em;"> Sebastià Puig </h3>
@@ -227,7 +227,7 @@
                         </tr>
                         <tr>
                             <td style="width: 20%;">
-                                <img src="/frontendFiles/img/team/pous.png" class="img-responsive" style="width: 100%;">
+                                <img src="{{asset('/frontendFiles/img/team/pous.png')}}" class="img-responsive" style="width: 100%;">
                             </td>
                             <td>
                                 <h3 style="font-weight: bold; margin-bottom: 10px; font-size: 1.6em;"> Narcís Pous </h3>
@@ -251,7 +251,7 @@
                         </tr>
                         <tr>
                             <td style="width: 20%;">
-                                <img src="/frontendFiles/img/team/wided.png" class="img-responsive" style="width: 100%;">
+                                <img src="{{asset('/frontendFiles/img/team/wided.png')}}" class="img-responsive" style="width: 100%;">
                             </td>
                             <td>
                                 <h3 style="font-weight: bold; margin-bottom: 10px; font-size: 1.6em;"> Wided Ben Ammar </h3>
@@ -262,7 +262,7 @@
                         </tr>
                         <tr>
                             <td style="width: 20%;">
-                                <img src="/frontendFiles/img/team/atef.png" class="img-responsive" style="width: 100%;">
+                                <img src="{{asset('/frontendFiles/img/team/atef.png')}}" class="img-responsive" style="width: 100%;">
                             </td>
                             <td>
                                 <h3 style="font-weight: bold; margin-bottom: 10px; font-size: 1.6em;"> Atef JAOUANI </h3>
@@ -273,7 +273,7 @@
                         </tr>
                         <tr>
                             <td style="width: 20%;">
-                                <img src="/frontendFiles/img/team/mouna.png" class="img-responsive" style="width: 100%;">
+                                <img src="{{asset('/frontendFiles/img/team/mouna.png')}}" class="img-responsive" style="width: 100%;">
                             </td>
                             <td>
                                 <h3 style="font-weight: bold; margin-bottom: 10px; font-size: 1.6em;"> Mouna MARRAKCHI </h3>
