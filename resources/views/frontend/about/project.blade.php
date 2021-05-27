@@ -121,7 +121,7 @@
                         <span class="opacity-7 d-block">
                             <ul class="text-color-light pt-3 mb-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300">
                                 <li>Ain shams University (ASU).</li>
-                                </ul>
+                            </ul>
                         </span>
                     </div>
                     <div class="col-half-section text-color-light text-left mt-4">
