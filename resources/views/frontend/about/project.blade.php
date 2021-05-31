@@ -61,7 +61,9 @@
                         <li>Plastic antibodies for some organoleptic gases; NH3/TMA (e-nose).</li>
                         <div class="w-100 text-center appear-animation"  data-appear-animation="fadeInLeftShorter">
                             <img class="img-intro pt-3" src="{{asset('frontendFiles/img/picture6.png')}}" alt="">
+                            <p>4(a)</p>
                             <img class="img-intro pt-3" src="{{asset('frontendFiles/img/picture7.png')}}" alt="">
+                            <p>4(b)</p>
                             <p>Figure 4. Biomimetic polymer sensors array based on molecular imprinting (MIP)</p>
                         </div>
                     </ul>
@@ -86,7 +88,7 @@
 
 <div class="container-fluid">
     <div class="row py-3 mt-2">
-
+{{-- 
         <div class="col-lg-6 p-0">
             <section class="section section-height-3 bg-color-primary-darken-1 h-100 m-0 border-0">
                 <div class="row justify-content-end m-0">
@@ -108,16 +110,16 @@
                     </div>
                 </div>
             </section>
-        </div>
-
-        <div class="col-lg-6 p-0">
+        </div> --}}
+        <div class="section bg-color-primary col-lg-3"></div>
+        <div class="col-lg-6 p-0 d-flex justify-content-center">
             <section class="section section-height-3 bg-color-primary h-100 m-0 border-0">
-                <div class="row m-0">
+                <div class="row m-0 d-flex justify-content-center">
                     <div class="col-half-section text-color-light ">
-                        <p class="text-uppercase font-weight-semibold mb-1 text-color-light appear-animation mb-5" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="100">Partners<span class="line-pre-title mr-0 ml-3 bg-color-secondary appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="200"></span></p>
+                        <p class="text-uppercase font-weight-semibold mb-1 text-color-light appear-animation mb-5" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="100"><span class="line-pre-title bg-color-secondary ml-0 mr-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200"></span>Partners</p>
 
                         <h3 class="text-color-light font-weight-bolder text-capitalize mb-1 letter-spacing-08 font-size-32 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="200">Egyptian Partners</h3>
-
+                        
                         <span class="opacity-7 d-block">
                             <ul class="text-color-light pt-3 mb-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300">
                                 <li>Ain shams University (ASU).</li>
@@ -145,6 +147,7 @@
                 </div>
             </section>
         </div>
+        <div class="section bg-color-primary col-lg-3"></div>
 
     </div>
 </div>

@@ -115,15 +115,25 @@
         <div class="row py-5">
             <div class="col-lg-6 pt-2">
                 <p class="text-uppercase font-weight-semibold mb-1 text-color-primary appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="100"><span class="line-pre-title bg-color-primary"></span>Sponsor </p>
-                <h2 class="text-color-secondary font-weight-bolder text-capitalize mb-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">Co-funded by</h2>
-                <p class="mb-4 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;"><strong>STDF :</strong> Science, Technology & Innovation Funding Authority. (STDF) has stimulated the Egyptian scientific society by funding distinguished research papers and establishing scientific partnerships with scientists from many advanced countries in order to keep track of quickly advancing technology, and be open to different societies, as well as, new economic unions, compete on the international arena, link scientific research to technological development and cooperate with civil society institutions to activate their role in the integrated scientific research system.</p>
-                <p class="mb-4 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;"><strong>ERANETMED :</strong> (ERA.NET with the Mediterranean Partner Countries) is a European Union (EU) project aimed at promoting a unified European approach to collaborating with the Mediterranean in the field of science and technology research for innovation and sustainable development. </p>
+                <h2 class="text-color-secondary font-weight-bolder text-capitalize mb-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">Funding Agencies</h2>
+                {{-- <p class="mb-4 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;"><strong>STDF :</strong> Science, Technology & Innovation Funding Authority. (STDF) has stimulated the Egyptian scientific society by funding distinguished research papers and establishing scientific partnerships with scientists from many advanced countries in order to keep track of quickly advancing technology, and be open to different societies, as well as, new economic unions, compete on the international arena, link scientific research to technological development and cooperate with civil society institutions to activate their role in the integrated scientific research system.</p>
+                <p class="mb-4 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300" style="animation-delay: 300ms;"><strong>ERANETMED :</strong> (ERA.NET with the Mediterranean Partner Countries) is a European Union (EU) project aimed at promoting a unified European approach to collaborating with the Mediterranean in the field of science and technology research for innovation and sustainable development. </p> --}}
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 d-flex align-items-center">
-                <div class="card border-radius-0 box-shadow-1 border-0 mt-4 ml-lg-3 p-3 mb-3 mb-lg-0" style="width: fit-content; margin: 0 auto !important; background-color: #eef0f4;">
-                    <img src="{{asset('frontendFiles/img/sponsor/picture2.jpg')}}" class="img-fluid border-radius-0 w-100" alt="">
-                    <img src="{{asset('frontendFiles/img/sponsor/picture3.png')}}" class="img-fluid border-radius-0 w-100" alt="">
+                <div class="row">
+                   <div class="col-lg-6 pt-4 pt-lg-0 d-flex align-items-center">
+                    <div class="card border-radius-0 box-shadow-1 border-0 mt-4 ml-lg-3 p-3 mb-3 mb-lg-0" style="width: fit-content; margin: 0 auto !important; background-color: #eef0f4;">
+                        <img src="{{asset('frontendFiles/img/sponsor/picture2.jpg')}}" class="img-fluid border-radius-0 w-100" alt="">
+                    </div>
+                   </div>
+
+                   <div class="col-lg-6 pt-4 pt-lg-0 d-flex align-items-center">
+                    <div class="card border-radius-0 box-shadow-1 border-0 mt-4 ml-lg-3 p-3 mb-3 mb-lg-0" style="width: fit-content; margin: 0 auto !important; background-color: #eef0f4;">
+                        <img src="{{asset('frontendFiles/img/sponsor/picture3.png')}}" class="img-fluid border-radius-0 w-100" alt="">
+                    </div>
+                   </div>
                 </div>
+                
             </div>
         </div>
     </div>
@@ -224,57 +234,57 @@
         <div class="row">
             <div class="col-12" style="text-align: center;">
                 <div class="row" style="text-align: center;">
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center">
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center">
                         <img
                         onclick="window.open('http://www.asu.edu.eg/')" src="/frontendFiles/img/partners/picture1.png"
                         class="img-responsive" alt=""
                         style="width: 150px; height: auto; margin: 10px; cursor: pointer;">
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
                         onclick="window.open('https://eng.asu.edu.eg/')" src="/frontendFiles/img/partners/picture2.png"
                         class="img-responsive" alt=""
                         style="width: 130px; height: auto; margin: 10px; cursor: pointer;">
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
                         onclick="window.open('http://www.utm.rnu.tn/visirech/Fr/utm/fst/lmba/')" src="/frontendFiles/img/partners/picture3.png"
                         class="img-responsive" alt=""
                         style="width: 130px; height: auto; margin: 10px; cursor: pointer;">
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
                         onclick="window.open('http://www.issbat.rnu.tn/')" src="/frontendFiles/img/partners/picture4.png"
                         class="img-responsive" alt=""
                         style="width: 150px !important; height: auto; margin: 10px; cursor: pointer;">
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
                         onclick="window.open('http://www.utm.rnu.tn/utm/fr/')" src="/frontendFiles/img/partners/picture5.png"
                         class="img-responsive" alt=""
                         style="width: 115px !important; height: auto; margin: 10px; cursor: pointer;">
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
                         onclick="window.open('http://www.lequia.udg.edu/')" src="/frontendFiles/img/partners/picture6.png"
                         class="img-responsive" alt=""
                         style="width: 130px height: auto; margin: 10px; cursor: pointer;">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-2 offset-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
+                    <div class="col-xl-2 col-lg-4 offset-xl-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
                         onclick="window.open('https://www.udg.edu/en/')" src="/frontendFiles/img/partners/picture7.png"
                         class="img-responsive" alt=""
                         style="width: 130px; height: auto; margin: 10px; cursor: pointer;">
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
                         onclick="window.open('http://www.euni.de/tools/jobpopup.php?lang=en&option=showJobs&jobid=63753&jobtyp=9&university=University+of+Salerno&country=IT&sid=2889')" src="/frontendFiles/img/partners/picture8.png"
                         class="img-responsive" alt=""
                         style="width: 130px; height: auto; margin: 10px; cursor: pointer;">
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center"><img
                         onclick="window.open('https://www.ufz.de/index.php?en=34257')" src="/frontendFiles/img/partners/picture9.png"
                         class="img-responsive" alt=""
                         style="width: 250px; height: auto; margin: 10px; cursor: pointer;">
